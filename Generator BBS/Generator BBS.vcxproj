@@ -141,9 +141,12 @@
   <ItemGroup>
     <ClCompile Include="BBS.cpp" />
     <ClCompile Include="Generator BBS.cpp" />
+    <ClCompile Include="RC4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BBS.h" />
+    <ClInclude Include="Generator BBS.h" />
+    <ClInclude Include="RC4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

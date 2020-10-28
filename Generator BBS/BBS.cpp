@@ -20,6 +20,8 @@
 void BBS::generate(int ile)
 {
 
+	this->x = std::vector<bool> ();
+
 	for (int i = 0; i < ile; i++)
 	{
 		this->xi = (this->xi * this->xi) % this->N;
